@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  GitLess2
 //
 //  Created by new on 27.02.2025.
@@ -7,12 +7,16 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+final class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
     print("hello")
+        configureViewController()
+        
+    }
+    func configureViewController() {
+        print ("vc configured")
+
     }
 }
-
-
